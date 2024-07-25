@@ -1,0 +1,44 @@
+{
+  "warehouses": [
+    {
+      "id": 1,
+      "name": "lift house",
+      "location": "envigado"
+    },
+    {
+      "id": 2,
+      "name": "doc house",
+      "location": "mdl"
+    },
+    {
+      "id": 3,
+      "name": "l",
+      "location": "s"
+    }
+  ],
+  "shipments": [
+    {
+      "id": 1,
+      "item": "Item Name",
+      "quantity": 100,
+      "warehouseId": 1
+    },
+    {
+      "id": 2,
+      "item": "New Item Name",
+      "quantity": 150,
+      "warehouseId": 1
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Carlos Gomez"
+    },
+    {
+      "id": 2,
+      "name": "David"
+    }
+  ],
+  "vehicles": []
+}
