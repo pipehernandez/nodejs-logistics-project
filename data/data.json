@@ -38,7 +38,22 @@
     {
       "id": 2,
       "name": "David"
+    },
+    {
+      "id": 3,
+      "name": "Juan David"
     }
   ],
-  "vehicles": []
+  "vehicles": [
+    {
+      "id": 1,
+      "model": "ford-fiesta",
+      "year": 2012
+    },
+    {
+      "id": 2,
+      "model": "ford-raptor",
+      "year": 2010
+    }
+  ]
 }

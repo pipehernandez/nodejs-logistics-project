@@ -4,6 +4,7 @@ import errorHandler from "./middlewares/errorHandler.js"
 import routerWarehouses from "./routes/warehouses.js";
 import routerShipments from "./routes/shipments.js";
 import routerDrivers from "./routes/drivers.js";
+import routerVehicles from "./routes/vehicles.js";
 
 const app = express();
 dotenv.config();
@@ -14,6 +15,7 @@ app.use(errorHandler);
 app.use("/warehouses", routerWarehouses);
 app.use("/shipments", routerShipments);
 app.use("/drivers", routerDrivers);
+app.use("/vehicles", routerVehicles);
 
 app.listen(PORT, () =>{
     console.log(`El puerto esta siendo escuchado correctamente en http://localhost:${PORT}`);
